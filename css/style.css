@@ -1,41 +1,82 @@
-.color{
-	background: black;
+body{
+	background: #f2f2f2;
 }
 
-.mer{
-	margin-top: 5%;
-	margin-bottom: 5%;
+
+.or{
+	margin-top: 80px;
+	
+	width: 80%;
 }
 
-.sep{
-	width: 96%;
-	margin-left: 10%;
-
-}
-
-#b_nombre{
-	font-size: 1.6em;
-	color: white;
-	background: #676f70;
+.encabezado{
 	text-align: center;
-	width: 90%;
 }
 
-#frase{
-	margin-left: 1%;
-	margin-right: 1%;
-	font-size: 1.2em;
-	font-weight: bold;
+header nav a:hover{
+	background: #f2f2f2;
+	color:#000;
 }
 
-#port{
-	margin-top: 10%;
+nav{
+	position: fixed;
+	width: 100%;
+	top:0;
+}
+
+.v:hover{
+	background:#000;
+	color: #fff;
+}
+
+.nav_bar{
+	background: #000;
+}
+
+.op:hover{
+	color: #fff;
+}
+
+.oa:hover{
+	background: #000;
+}
+
+.enca{
+	width: 30%;
+	display: block;
+	margin: auto;
+}
+
+.image{
 	width: 95%;
 }
 
-.desc{
-	text-align: justify;
+#name{
+	width: 95%;
+	background: #000;
+	font-size: 200%;
+	text-align: center;
+	color: #f2f2f2;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
+
+#frase{
+	font-size: 180%;
+	padding-top: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#desc{
+	text-align: justify;
+	font-size: 13pt;
+}
+
+.campo{
+	font-weight: bold;
+}
+
 
 .hab{
 	background: gray;
@@ -45,10 +86,124 @@
 	width: 86%;
 	padding: 6%;
 	text-align: center;
-	font-size: 0.8em;
+	font-size: 80%;
 	color: #f2f2f2;
 }
 
 img.icar{
 	width: 60%;
 }
+
+.espa{
+	margin-top: 60px;
+}
+
+@media screen and (max-width: 800px){
+	.car{
+		margin-top: 50px;
+
+	}
+
+	.res img{
+		width: 60%;
+	}
+
+	.hab{
+		font-size: 20pt;
+	}
+
+	.res{
+		width: 140%;
+	}
+
+	.encabezado img{
+		width: 110%;
+		display: block;
+
+	}
+
+	.image{
+		margin-right: 20%;
+		margin-left: 20%;
+	}
+
+	.image img{
+		width: 250%;
+	}
+
+	.text{
+		text-align: center; 
+	}
+
+	.one{
+		margin-right: -10%;
+		float: right;
+	}
+
+	
+	
+}
+
+	footer div div a{
+		text-decoration:none;
+		color: #fff;
+		font-size: 30pt;
+		display: inline-block;
+		margin-right: 15px;
+		margin-top: 20px;
+	}
+
+	.icon{
+		font-size: 12pt;
+		margin-right: 10px;
+	}
+
+	#firma{
+		width: 120%;
+		float: right;
+	}
+
+	#fi{
+		float: right;
+		width: 80%;
+	}
+
+	.image{
+		display: inline-block;
+		width: 30%;
+	}
+
+	.text{
+		display: inline-block;
+		
+		width: 68%;
+		padding: 2%;
+
+	}
+
+	.der{
+		float: right;
+	}
+
+	.izq{
+		float: left;
+		margin-right: 15px;
+		padding-left: 0;
+	}
+
+	.imagen_e{
+		width: 90%;
+	}
+
+	.escudo{
+		font-weight: bold;
+	}
+
+	.imagea{
+		display: inline-block;
+		width: 100%;
+	}
+
+	.img_card{
+		width: 1%;
+	}
