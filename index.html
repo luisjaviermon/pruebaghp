@@ -5,7 +5,6 @@
 	<link rel="stylesheet" href="css/materialize.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="css/fonts.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Materialize</title>
 </head>
@@ -13,137 +12,121 @@
 	<header>
 		
 		<nav>
-		    <div class="nav-wrapper nav_bar">
+		    <div class="nav-wrapper color">
 		     
-		      <a href="#" data-target="mobile-demo" class="sidenav-trigger v"><i class="material-icons">menu</i></a>
+		      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 		      <ul class="right hide-on-med-and-down">
-		         <li><a href="index.html">Perfil</a></li>
-		        <li><a href="Formacion.html">Formacion</a></li>
-		        <li><a href="hab.html">Habilidades</a></li>
-		        <li><a href="Contacto.html">Contacto</a></li>
+		        <li><a href="sass.html">Perfil</a></li>
+		        <li><a href="badges.html">Formacion</a></li>
+		        <li><a href="collapsible.html">Habilidades</a></li>
+		        <li><a href="mobile.html">Contacto</a></li>
 		      </ul>
 		    </div>
 		  </nav>
 
 		  <ul class="sidenav" id="mobile-demo">
-		    <li class="oa"><a href="index.html" class="op">Perfil</a></li>
-		    <li class="oa"><a href="Formacion.html" class="op">Formacion</a></li>
-		    <li class="oa"><a href="hab.html" class="op">Habilidades</a></li>
-		    <li class="oa"><a href="Contacto.html" class="op">Contacto</a></li>
+		    <li><a href="sass.html">Perfil</a></li>
+		    <li><a href="badges.html">Formacion</a></li>
+		    <li><a href="collapsible.html">Habilidades</a></li>
+		    <li><a href="mobile.html">Contacto</a></li>
 		  </ul>
 	</header>
 
-	<div class="container or">
-		<div class="row encabezado">
-			<img src="img/pancarta.png" alt="cartel" class="enca">
-		</div>
-
+	<div class="container">
+		
 		<div class="row">
-			<div class="col m4">
+			<div class="col m4 mer">
 				<div class="row">
-					<img src="img/Fotografia-Curriculum-21.jpg" alt="img" class="imagea">
-					<p id="name">
-						Luis Javier Montiel Martinez	
+					<img id="port" src="img/yo.jpg" alt="">
+					<div id="b_nombre" id="ps">
+						Luis Javier Montiel Martinez
+					</div>
+				</div>
+			</div>
+			<div class="col m4 mer">
+				<div class="row ">
+					<p id="frase">Nunca te rindas, porque estas en el lugar y momento en el que la marea dará la vuelta</p>
+
+					<p class="desc">Soy una persona muy proactiva, tengo un gran sentido de responsabilidd en las funciones que se me asignan, soy muy receptivo para las ideas y sugerencias, me gusta analizar objetivamente las situaciones que se presentan en mi vida profecional y dar las solciones inmediatas.
+					 <br>
+					 <br>
+					Tengo estudion completo en ingenieria en computacion, por lo cual me siento capaz de desarrollar con eficiencia y prontitud el proyecto que se me asigne en el momento</p>
+				</div>
+
+			</div>
+			<div class="col m4 mer desc">
+				<div class="sep mer">
+				<div class="row">
+					<p>
+						Fecha de nacimiento: 24 de septiembre de 1998 
+						<br>
+						Edad: 20 años
+						<br>
+						Sexo: Masculino
 					</p>
 				</div>
-
-			</div>
-
-			<div class="col m4">
-				<div id="frase">
-					Nunca te rindas, porque estas en el lugar y momento en el que la marea dará la vuelta
-				</div>
-				<p id="desc">
-					Soy una persona muy proactiva, tengo un gran sentido de responsabilidd en las funciones que se me asignan, soy muy receptivo para las ideas y sugerencias, me gusta analizar objetivamente las situaciones que se presentan en mi vida profecional y dar las solciones inmediatas.
-
-				</p>
-
-				<p id="fi">
-					<img src="img/firma-superior.png" id="firma">
-				</p>
-
-			</div>
-
-			<div class="col m4">
-				<p><div class="campo"><span class=" icon icon-calendar"></span>Fecha nacimiento</div> 24 de septiembre de 1998</p>
-				<p><div class="campo"><span class="icon icon-user"></span>Edad</div> 20 años</p>
-				<p><div class="campo"><span class="icon icon-phone"></span>Telefono</div> 55-74-66-14-60</p>
-				<p><div class="campo"><span class="icon icon-home"></span>Direccion</div> Bosque de framboyanes no. 12 col.jardines de Morelos, ecatepec, edo. de Mex</p>
-				<p><div class="campo"><span class="icon icon-location2"></span>Codigo Postal</div>55070</p>
-				<div class="row espa">
-					<div class="col m12">
-						<div class="col m6">
-						<div class="car hab">
-							<img src="img/30801.png" alt="" class="icar">
-							<br>
-							Trabajo bajo presion
-						</div>
-						</div>
-						<div class="col m6">
-							<div class="car hab">
-								<img src="img/408557.png" alt="" class="icar">
-								<br>
-								Proyectos realizados
-							</div>
-						</div>
-					</div>
-				</div>
-
 				<div class="row">
-					<div class="col m12">
-						<div class="col m6">
-						<div class="car hab res">
-							<img src="img/icono-3-no.png" alt="" class="icar">
+					<div class="col m6">
+						<div class="car hab">
+							<img class="icar" src="img/icono-3-no.png" alt="">
 							<br>
-							Alta competitividad
+							Alta competividad
 						</div>
-						</div>
-						<div class="col m6">
-							<div class="car hab">
-								<img src="img/680221.png" alt="" class="icar">
-								<br>
-								<br>Gran experiencia <br>
-							</div>
+					</div>
+					<div class="col m6">
+						<div class="car hab">
+							<img class="icar" src="img/680221.png" alt=""> 
+							<br>
+							Gran experiencia
 						</div>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col m6">
+					<div class="car hab">
+						<img src="img/30801.png" alt="" class="icar">
+						<br>
+						Trabajo bajo presion
+					</div>
+					</div>
+					<div class="col m6">
+						<div class="car hab">
+							<img src="img/408557.png" alt="" class="icar">
+							<br>
+							Proyectos realizados
+						</div>
+					</div>
+				</div>
+				</div>
 			</div>
-
 		</div>
-
+		
 	</div>
 
-		<footer class="page-footer nav_bar">
-		          <div class="container">
-		            <div class="row">
-		              <div class="col l6 s12">
-		                <h5 class="white-text">Luis Javier Montiel Martinez</h5>
-		                <p class="grey-text text-lighten-4">
-		                	<p class="datos">
-		                		<span class="icon-mail"></span> luiis.montiel2297@gmail.com
-		                		<p></p>
-		                		<span class="icon-whatsapp"></span> 55-74-66-14-60
-		                	</p>
-		                </p>
-		              </div>
-		              <div class="col l4 offset-l2 s12">
-		                <h5 class="white-text">Mis redes sociales</h5>
-		                <p></p>
-
-		               	<a href="https://drive.google.com/drive/folders/1yXt0mEXS4O-dCrvX7bjAZqZHzKPzW0oV?usp=sharing" class="enlaces" target="_blank"><span class="icon-google-drive"></span></a>
-		               	<a href="https://www.facebook.com/luisjavier.montielmartinez" target="_blank"><span class="icon-facebook2"></span></a>
-		               	<a href="https://www.instagram.com/luisjaviermontielmartinez/" target="_blank"><span class="icon-instagram"></span></a>
-		               	<a href="https://github.com/luisjaviermon" target="_blank"><span class="icon-github"></span></a>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="footer-copyright">
-		            <div class="container">
-		            © 2018 Todos los derechos reservados
-		           
-		            </div>
-		          </div>
-		        </footer>
+		<footer class="page-footer color">
+	          <div class="container">
+	            <div class="row">
+	              <div class="col l6 s12">
+	                <h5 class="white-text">Luis Javier</h5>
+	              </div>
+	              <div class="col l4 offset-l2 s12">
+	                <h5 class="white-text">Redes Sociales</h5>
+	                <ul>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+	                </ul>
+	              </div>
+	            </div>
+	          </div>
+	          <div class="footer-copyright">
+	            <div class="container">
+	            © 2018 El contenido pertenece a su respectivo autor
+	            
+	            </div>
+	          </div>
+	        </footer>
 </body>
 <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
